@@ -5,11 +5,16 @@ These are the projects I made in this course.
 **Projects:**  
 
 
-1-[Methode Class App](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/MethodClassApp.cs)
-2-[IQuittableApp](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/IQuittableApp.cs)
-3-[Operator OverLoad](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/EmployeeOperatorOverload.cs)
-4-[Student Database](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/tree/main/Final%20Assignment%20Submission)
-5-[Quoate](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/Assignment%20Part%204/Controllers/InsureeController.cs)
+1-[Methode Class App](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/MethodClassApp.cs)  
+
+2-[IQuittableApp](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/IQuittableApp.cs)  
+
+3-[Operator OverLoad](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/EmployeeOperatorOverload.cs)  
+
+4-[Student Database](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/tree/main/Final%20Assignment%20Submission)  
+
+5-[Quoate](https://github.com/khalilo91/C-and-.NET-Framework-Part-2/blob/main/Assignment%20Part%204/Controllers/InsureeController.cs)  
+
 
 
 **Methode Class App**  
