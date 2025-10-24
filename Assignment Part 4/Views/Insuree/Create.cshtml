@@ -1,0 +1,57 @@
+@model InsuranceApp.Models.Insuree
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create a New Insurance Quote</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>First Name</label>
+        @Html.TextBoxFor(m => m.FirstName)
+    </div>
+    <div>
+        <label>Last Name</label>
+        @Html.TextBoxFor(m => m.LastName)
+    </div>
+    <div>
+        <label>Email Address</label>
+        @Html.TextBoxFor(m => m.EmailAddress)
+    </div>
+    <div>
+        <label>Date of Birth</label>
+        @Html.TextBoxFor(m => m.DateOfBirth, "{0:yyyy-MM-dd}", new { type = "date" })
+    </div>
+    <div>
+        <label>Car Year</label>
+        @Html.TextBoxFor(m => m.CarYear)
+    </div>
+    <div>
+        <label>Car Make</label>
+        @Html.TextBoxFor(m => m.CarMake)
+    </div>
+    <div>
+        <label>Car Model</label>
+        @Html.TextBoxFor(m => m.CarModel)
+    </div>
+    <div>
+        <label>DUI?</label>
+        @Html.CheckBoxFor(m => m.DUI)
+    </div>
+    <div>
+        <label>Number of Speeding Tickets</label>
+        @Html.TextBoxFor(m => m.SpeedingTickets)
+    </div>
+    <div>
+        <label>Full Coverage?</label>
+        @Html.CheckBoxFor(m => m.CoverageType)
+    </div>
+
+    <!-- Hidden field for Quote -->
+    @Html.HiddenFor(m => m.Quote)
+
+    <button type="submit">Submit</button>
+}
